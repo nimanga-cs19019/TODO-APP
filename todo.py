@@ -1,7 +1,6 @@
 import tkinter as tk
 from tkinter import ttk
 
-#comment here
 root = tk.Tk()
 root.title("TODO")
 root.geometry('400x500')
