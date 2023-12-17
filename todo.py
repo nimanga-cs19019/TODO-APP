@@ -8,7 +8,7 @@ root.resizable(False, False)
 root.iconbitmap('ICON.ico')
 
 
-def addtask(event):
+def addtask( event):
     task = taskEntry.get()
     taskEntry.delete(0, tk.END)
     if task:
